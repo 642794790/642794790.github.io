@@ -1,20 +1,18 @@
 # Site settings
 title: QY Blog
 SEOTitle: 不可视契约的博客 | QY Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/bg.jpg
 email: 642794790@qq.com
 description: "Every failure is leading towards success."
 keyword: "不可视契约, 邪王真眼是最强的, QY"
 url: "http://642794790.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/642794790/642794790.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+sidebar-avatar: /img/dxj.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false
@@ -30,16 +28,16 @@ jianshu_username:
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+#permalink: pretty
+#paginate: 10
+#exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+#anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
 
 
 
@@ -48,10 +46,10 @@ gems: [jekyll-paginate]
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+#markdown: kramdown
+#highlighter: rouge
+#kramdown:
+  #input: GFM                            # use Github Flavored Markdown !important
 
 
 
@@ -64,8 +62,8 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
+  repo: 642794790.github.io    #仓库名称
+  owner: 642794790    #github用户名
   admin: qiubaiying
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
